@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo"><a href="index.html">Waziri<span>Portfolio</span></a></div>
+      <div class="hamburger"><div></div><div></div><div></div></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="section-title"><h2>Get In Touch</h2></div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p>📧 Wazirishaban20@gmail.com</p>
+            <p>📱 +255 620847754</p>
+            <p>📍 Dar es salaam, TZ</p>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <label>Name</label>
+              <input type="text" id="name" class="form-control" />
+              <div class="error" id="nameError">Enter your name</div>
+
+              <label>Email</label>
+              <input type="email" id="email" class="form-control" />
+              <div class="error" id="emailError">Enter a valid email</div>
+
+              <label>Message</label>
+              <textarea id="message" class="form-control"></textarea>
+              <div class="error" id="messageError">Enter your message</div>
+
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container"><p>&copy; 2025 My Portfolio</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
